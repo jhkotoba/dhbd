@@ -2,13 +2,15 @@
 'use client'
 
 import React from 'react'
+import Link from 'next/link'
 
 interface CardProps {
   title: string
+  url: string
   description: string
 }
 
-export default function Card({ title, description }: CardProps) {
+export default function Card({ title, url, description }: CardProps) {
   return (
     <div className="bg-white rounded-lg shadow hover:shadow-md transition p-6 flex flex-col">
       {/* 이미지 자리 (나중에 <img> 로 교체) */}
@@ -16,9 +18,10 @@ export default function Card({ title, description }: CardProps) {
 
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
       <p className="text-gray-600 flex-grow">{description}</p>
-      <button className="mt-4 self-start px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
-        자세히 보기
-      </button>
+      <Link
+        href={url}
+        className="mt-4 self-start px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+      >이동 </Link>
     </div>
   )
 }

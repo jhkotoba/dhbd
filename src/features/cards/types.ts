@@ -2,5 +2,6 @@
 export interface Card {
   id: number
   title: string
+  url: string
   description: string
 }
