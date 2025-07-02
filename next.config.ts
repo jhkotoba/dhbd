@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  assetPrefix: '/dashboard',
+  env: {
+    GATEWAY_PREFIX: 'dashboard'
+  }
 };
 
 export default nextConfig;
