@@ -140,3 +140,6 @@ vite.config.ts.timestamp-*
 .vscode/settings.json
 .vscode/launch.json
 CLAUDE.md
+
+
+.project
