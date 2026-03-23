@@ -4,10 +4,10 @@ import { Card } from './types'
 
 const sampleCards: Card[] = [
   { id: 0, title: 'ast', url: `/ast`, description: 'asset tracker' },
-  { id: 1, title: 'wg', url: `/game`, description: 'web game' },
-  { id: 2, title: '신규 가입자', url: '/', description: '오늘 34명 가입' },
-  { id: 3, title: '서버 상태', url: '/', description: '모든 인스턴스 정상' },
-  { id: 4, title: '알림 수신', url: '/', description: '처리 대기 중 7건' },
+  // { id: 1, title: 'wg', url: `/game`, description: 'web game' },
+  // { id: 2, title: '신규 가입자', url: '/', description: '오늘 34명 가입' },
+  // { id: 3, title: '서버 상태', url: '/', description: '모든 인스턴스 정상' },
+  // { id: 4, title: '알림 수신', url: '/', description: '처리 대기 중 7건' },
 ]
 
 // 샘플데이터
